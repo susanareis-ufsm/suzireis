@@ -1,0 +1,16 @@
+/* Simple accessible styles for the academic site */
+:root{
+  --bg:#ffffff; --fg:#222; --accent:#005f73; --muted:#666;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+*{box-sizing:border-box}
+body{ background:var(--bg); color:var(--fg); margin:0; line-height:1.6; padding:1rem; }
+.site-header{ border-bottom:4px solid var(--accent); padding-bottom:1rem; margin-bottom:1rem; display:flex; justify-content:space-between; align-items:center; }
+.header-left{ display:flex; gap:1rem; align-items:center }
+.profile-photo{ width:110px; height:110px; object-fit:cover; border-radius:8px; }
+header nav a{ margin:0 .4rem; color:var(--accent); text-decoration:none }
+.lang-switch button{ margin-left:.3rem; padding:.3rem .6rem; border:1px solid #ddd; background:white; cursor:pointer }
+main{ max-width:900px; margin:0 auto; padding:1rem; }
+section{ margin:1.5rem 0; }
+footer{ text-align:center; margin-top:3rem; color:var(--muted); font-size:.9rem; }
+@media(max-width:700px){ .site-header{flex-direction:column; align-items:flex-start} .profile-photo{width:90px;height:90px} header nav{ margin-top:.6rem } }
