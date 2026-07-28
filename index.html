@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR" data-lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Suzireis — Página Acadêmica / Academic website</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <img src="/assets/photo.jpg" alt="Foto de perfil" class="profile-photo" id="profile-photo" />
+      <div>
+        <h1 class="lang-pt">Suzireis</h1>
+        <h1 class="lang-en" style="display:none">Suzireis</h1>
+        <p class="lang-pt">Pesquisadora | Professora — Aprendizado de Máquina, Visão Computacional</p>
+        <p class="lang-en" style="display:none">Researcher | Lecturer — Machine Learning, Computer Vision</p>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <nav>
+        <a href="#home" class="lang-pt">Início</a>
+        <a href="#home" class="lang-en" style="display:none">Home</a>
+        <a href="#about" class="lang-pt">Sobre / CV</a>
+        <a href="#about" class="lang-en" style="display:none">About / CV</a>
+        <a href="#publications" class="lang-pt">Publicações</a>
+        <a href="#publications" class="lang-en" style="display:none">Publications</a>
+        <a href="#teaching" class="lang-pt">Ensino</a>
+        <a href="#teaching" class="lang-en" style="display:none">Teaching</a>
+        <a href="#projects" class="lang-pt">Projetos</a>
+        <a href="#projects" class="lang-en" style="display:none">Projects</a>
+        <a href="#tech-outputs" class="lang-pt">Produções Técnicas</a>
+        <a href="#tech-outputs" class="lang-en" style="display:none">Technical Outputs</a>
+        <a href="#games" class="lang-pt">Jogos</a>
+        <a href="#games" class="lang-en" style="display:none">Games</a>
+        <a href="#contact" class="lang-pt">Contato</a>
+        <a href="#contact" class="lang-en" style="display:none">Contact</a>
+      </nav>
+
+      <div class="lang-switch">
+        <button id="btn-pt" aria-pressed="true">PT</button>
+        <button id="btn-en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section id="about">
+      <h2 class="lang-pt">Sobre / CV</h2>
+      <h2 class="lang-en" style="display:none">About / CV</h2>
+      <p class="lang-pt">Breve bio — nome, cargo, instituição, linhas de pesquisa. <a href="/assets/cv.pdf">Baixar CV (PDF)</a></p>
+      <p class="lang-en" style="display:none">Short bio — position, affiliation, research interests. <a href="/assets/cv.pdf">Download CV (PDF)</a></p>
+    </section>
+
+    <section id="publications">
+      <h2 class="lang-pt">Publicações</h2>
+      <h2 class="lang-en" style="display:none">Publications</h2>
+      <p class="lang-pt">Lista gerada a partir do ORCID. <a href="/publications.bib">Baixar BibTeX</a></p>
+      <p class="lang-en" style="display:none">List generated from ORCID. <a href="/publications.bib">Download BibTeX</a></p>
+      <div id="publications-list">
+        <p class="lang-pt">(As publicações serão carregadas automaticamente e aparecem aqui.)</p>
+        <p class="lang-en" style="display:none">(Publications will be loaded automatically and appear here.)</p>
+      </div>
+    </section>
+
+    <section id="teaching">
+      <h2 class="lang-pt">Ensino</h2>
+      <h2 class="lang-en" style="display:none">Teaching</h2>
+      <ul>
+        <li class="lang-pt">Disciplina — semestre — material: <a href="#">slides</a></li>
+        <li class="lang-en" style="display:none">Course — semester — material: <a href="#">slides</a></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2 class="lang-pt">Projetos</h2>
+      <h2 class="lang-en" style="display:none">Projects</h2>
+      <p class="lang-pt">Resumo dos projetos e links para repositórios.</p>
+      <p class="lang-en" style="display:none">Project summaries and links to repositories.</p>
+    </section>
+
+    <section id="tech-outputs">
+      <h2 class="lang-pt">Produções Técnicas</h2>
+      <h2 class="lang-en" style="display:none">Technical Outputs</h2>
+      <p class="lang-pt">Relatórios técnicos, software, tutoriais.</p>
+      <p class="lang-en" style="display:none">Technical reports, software, tutorials.</p>
+    </section>
+
+    <section id="games">
+      <h2 class="lang-pt">Jogos</h2>
+      <h2 class="lang-en" style="display:none">Games</h2>
+      <p class="lang-pt">Descrição de jogos e projetos lúdicos.</p>
+      <p class="lang-en" style="display:none">Descriptions of games and playful projects.</p>
+    </section>
+
+    <section id="contact">
+      <h2 class="lang-pt">Contato</h2>
+      <h2 class="lang-en" style="display:none">Contact</h2>
+      <p class="lang-pt">Email: seu.email@exemplo.edu.br</p>
+      <p class="lang-en" style="display:none">Email: your.email@example.edu</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Suzireis — Universidade Federal de Santa Maria</p>
+  </footer>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
